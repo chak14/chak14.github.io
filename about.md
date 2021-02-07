@@ -1,4 +1,7 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+![hello_there](images/hello_there.jpg)
+
+I'm a mathematical engineer with a passion for numerical analysis and AI.
+I like lifting, chess Chinese characters, and trying new things (like wood carving or making a polished aluminum sphere).
 
