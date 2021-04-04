@@ -5,7 +5,7 @@
 
 ## AUC & ROC...what?
 The Area under the [ROC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) (AUC) is a well-known method to estimate the goodness of a binary classifier.
-True positive and False positive ratios are measured for different thresholds from 0 to 1 and the curve is plotted.
+True positive and False positive rates are measured for different thresholds from 0 to 1 and the curve is plotted.
 
 
 ![](/images/Roc-draft-xkcd-style.svg "By MartinThoma - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=70212136")
