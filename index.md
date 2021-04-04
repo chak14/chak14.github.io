@@ -1,4 +1,4 @@
-## Math and AI
+## Let's AI!
 Hello and welcome to my blog!  
 
 In this blog, I will write about AI-related stuff.
