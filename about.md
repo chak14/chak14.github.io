@@ -4,6 +4,8 @@
 
 I'm a mathematical engineer with a passion for AI and Finance.\
 I like lifting, playing chess, Chinese characters, and trying new things like wood carving or making a polished aluminum sphere.
+
+
 Yes, I like [Star Wars](https://chak14.github.io/404.html).
 
 
