@@ -19,6 +19,6 @@ That was strange to me because if the output is the label, the True-positive and
 This means that varying the threshold, we will always get the same point in the TP/FP plot, and plotting the curve would be impossible, let alone evaluate the area under the curve.
 So I started looking into the implementation of the `roc_auc_score` function.
 
-Long story short, the function always assume that for threshold=0 we have `TP=FP=0`, while for threshold=1, `TP=FP=1`, this way there will always be at least 3 points.
+Long story short, the function always assume that for threshold=0 we have `TP=FP=0`, while for threshold=1 `TP=FP=1`. In this way there will always be at least 3 points.
 It then linearly interpolate between each couple of points to draw the ROC curve. In this case the two segments would be `(0,0)—->(FP,TP)` and `(FP,TP)—>(1,1)`.
 The area under the ROC curve would then be `TP*FP/2+TP*(1-FP)+(1-TP)*(1-FP)/2`. 
