@@ -5,8 +5,13 @@
 
 
 The Area under the ROC curve is a well-known method to estimate the goodness of a binary classification.
+
 True positive and False positive ratios are measured for different thresholds from 0 to 1 and the curve is plotted.
+
+
 ![](/images/Roc-draft-xkcd-style.svg "By MartinThoma - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=70212136")
+
+
 To plot the ROC curve, the classification output should be the probability that the input belongs to the positive class (class ‘1’) and not the label itself (which would be ‘1’ or ‘0’).
 However, some days ago, I was looking at a post in Kaggle where it was shown the difference in the results if labels were used instead of probabilities.
 That was strange to me because if the output is the label, the True-positive and False-negative ratio will always be the same independently from the chosen threshold.
