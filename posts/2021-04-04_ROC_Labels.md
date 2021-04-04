@@ -15,8 +15,8 @@ To plot the ROC curve, the classification output should be the probability that 
 
 ## So...what's the problem?
 
-Some days ago, I was looking at a post in Kaggle where it was shown the difference in the results of the `roc_auc_score` function if labels were used as outputs instead of probabilities.
-That was strange to me because if the output is the label, the True-positive and False-positive ratio will always be the same independently from the chosen threshold.
+Some days ago, I was looking at a post in [Kaggle](https://www.kaggle.com/) where it was shown the difference in the results of the `roc_auc_score` function if labels were used as outputs instead of probabilities.
+That was strange to me because if the output is the label, the True-positive and False-positive rates will always be the same independently from the chosen threshold.
 This means that varying the threshold, we will always get the same point in the TP/FP plot, and plotting the curve would be impossible, let alone evaluate the area under the curve.
 
 ##  Meaning of the AUC for binary label outputs
